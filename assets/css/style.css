@@ -1,0 +1,169 @@
+body {
+}
+.amber-text {
+  color: #ffc107 !important;
+}
+
+th {
+  font-weight: 400;
+}
+
+a.restaurant:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.side-cards {
+  border-radius: 5px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 1px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.display-card {
+  width: 300px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 1px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*
+ *  STYLE 1
+ */
+
+#trial_cards::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+#trial_cards::-webkit-scrollbar {
+  width: 12px;
+  background-color: #f5f5f5;
+}
+
+#trial_cards::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.25);
+  background-color: #888;
+}
+
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.card_container {
+  margin-left: 5px;
+}
+
+#trial_cards {
+  border-radius: 0px;
+}
+
+#trial_cards::-webkit-scrollbar {
+  /* width: 0 !important; */
+  /* background: transparent; */
+}
+
+.card-btn {
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+a,
+a:visited {
+  color: #333;
+}
+
+#container {
+  padding-top: 20px;
+  width: 980px;
+}
+
+header {
+  padding: 10px;
+}
+
+#book-title {
+  font-family: georgia, "times new roman", times, serif;
+  color: #555;
+  font-size: 2.3em;
+  text-align: center;
+}
+
+#text-select {
+  float: right;
+  margin-right: 10px;
+}
+
+#vis {
+  overflow: hidden;
+  position: relative;
+}
+
+#status {
+  padding: 0 0 20px 20px;
+}
+
+#controls {
+  padding: 20px;
+  background-color: #eee;
+  margin: 10px;
+  width: 350px;
+}
+
+#bubble-background {
+  fill: none;
+  pointer-events: all;
+}
+
+.bubble-node {
+  /* fill: #d1e0f3; */
+  /* fill: #dce9be; */
+}
+
+.bubble-hover {
+  /* fill: #b8c7d9; */
+  /* fill: #e8e9e7; */
+  stroke: #222;
+  stroke-width: 4px;
+  /* opacity: 1; */
+}
+
+.bubble-selected {
+  /* fill: #a8c8ee;  */
+  /* fill: #e8e9e7; */
+  /* fill: #a8c8ee; */
+  /* stroke: #6081a3; */
+  stroke: #444;
+  stroke-width: 3px;
+  /* opacity: 1; */
+}
+
+.active_word {
+  color: #a6ba92;
+}
+
+a.bubble-label {
+  font-family: georgia, "times new roman", times, serif;
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1em;
+  position: absolute;
+}
+
+.bubble-label .bubble-label-value {
+  font: 9px sans-serif;
+  white-space: nowrap;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font: 13px sans-serif;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
